@@ -2,6 +2,8 @@
 
 This is an implementation of faker.js for rails.
 
+This was built using faker.js version 3.1.0
+(commit 649843ade73b730911506b8ecc6bf64bad10238c)
 faker.js
 https://github.com/marak/Faker.js/
 
@@ -23,7 +25,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add to your app's Gemfile
+Include in your app's `app/assets/javascripts/application.js` like so
+
+```javascript
+//= require faker
+```
 
 ## Development
 
