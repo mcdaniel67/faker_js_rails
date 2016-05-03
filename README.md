@@ -3,12 +3,16 @@
 This is an implementation of Faker.js for rails.
 
 This was built using Faker.js version 3.1.0
-This repo has the Faker.js repository as a submodule. To update this, simply clone and pull Faker.js.
+This repo has the Faker.js repository as a submodule. To update this, simply run scripts/update_to_latest. This will pull the latest faker.js version down, and update the files.
+
+I will release new versions of this app as faker.js releases.
 https://github.com/marak/Faker.js/
 
 ## Installation
 
-Add this line to your application's Gemfile:
+This project is intended for use in rails applications.
+
+Add this line to your rails application's Gemfile:
 
 ```ruby
 gem 'faker_js_rails'
